@@ -1,0 +1,71 @@
+#fname {
+    width:175px;
+   }
+   
+   #lname {
+    width:175px;
+   }
+   
+   #email-id {
+    width:175px;
+   }
+   
+   #pw {
+    width:175px;
+   }
+   
+   #dates {
+    width:175px;
+   }
+
+   body {
+    margin-top:100px;
+    }
+  
+  #female{
+    margin-left:10px;
+  }
+  
+  #male{
+    margin-left:24px;
+  }
+  #other{
+    margin-left:21px;
+  }
+  
+  
+  .label {
+    margin-left:785px;
+   }
+
+  .labels {
+    margin-left: 450px;
+  }
+  
+  .submit {
+    margin-left: 450px;
+  }
+
+  .label_select {
+    margin-left: 450px;
+  }
+ 
+  #about_me {
+    width: 450px;
+    height: 50px;
+  }
+
+  #rset {
+    margin-left: 20px;
+  }
+
+header{
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    text-align:center;
+      position: fixed;
+    width: 100%;
+    top: 0;
+  
+}

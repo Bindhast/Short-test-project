@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <p>Sign in</p>
+    </header>
+
+    <form action="/action_page.php">
+        <label for="fname" class="labels">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email_id" class="labels">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" id="email_id" name="email id">
+        <label for="pw">Password:&nbsp;&nbsp;</label>
+        <input type="password" id="pw" name="pw"><br><br>
+        <label for="dates" class="labels">date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="date" id="dates" name="dates">
+        <label type="gender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male"><br>
+        <label for="female" class=label>Female</label>
+        <input type="radio" name="gender" id="female" value="female"><br>
+        <label for="other" class=label>Other</label>
+        <input type="radio" name="gender" id="other" value="other"><br><br>
+        <label for="list" class="label_select">Profession:</label>
+        <select id="list">
+            <option value="1">Student</option>
+            <option value="2">Docter</option>
+            <option value="3">Politics</option>
+        </select>
+        <label for="avatar" class="label">Avatar:</label><br><br>
+        <label for="about_me" class="labels" >About you:</label>
+        <input type="text" id="about_me" name="about you"><br><br>
+        <input type="checkbox" id="check" name="checkbox" class="labels">
+        <label for="check">Subscribe to news letters.</label><br><br>
+        <input type="submit" value="Submit" class="submit">
+        <input type="reset" value="Clear" id="rset"> 
+        <input type="button" value="Cancel" id="rset" onclick="window.location.href='https://www.google.com'">
+    </form>
+</body>
+
+</html>
