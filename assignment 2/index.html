@@ -12,21 +12,69 @@
     <header>
         <p>Sign in</p>
     </header>
-
     <form action="/action_page.php">
-        <label for="fname" class="labels">First name:</label>
-        <input type="text" id="fname" name="fname">
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="email_id" class="labels">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="email" id="email_id" name="email id">
-        <label for="pw">Password:&nbsp;&nbsp;</label>
-        <input type="password" id="pw" name="pw"><br><br>
-        <label for="dates" class="labels">date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="date" id="dates" name="dates">
-        <label type="gender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" value="male"><br>
+        
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <label for="fname" class="labels">First name:</label>
+              </div>       
+            <table>
+                <tr>
+                    
+                <td>
+                    <input type="text" id="fname" name="fname">
+                </td>
+                <td>
+                    <label for="lname">Last name:</label>
+                </td>
+                <td>
+                    <input type="text" id="lname" name="lname">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <label for="email_id" class="labels">Email:</label>
+                </td>
+                <td>
+                    <input type="email" id="email_id" name="email id">
+
+                </td>
+                <td>
+                    <label for="pw">Password:</label>
+
+                </td>
+                <td>
+                    <input type="password" id="pw" name="password">                   
+                </td>
+            </tr>
+        </table>
+       <table>
+           <tr>
+            <td>
+                <label for="dates" class="labels">date:</label>
+            </td>
+            <td>
+                <input type="date" id="dates" name="dates">
+
+            </td>
+            <td>
+                <label type="gender">Gender:</label>
+            </td>
+            <td>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </td>       
+               
+           </tr>
+       </table>
+        
+        
+        
+        
+        <br>
         <label for="female" class=label>Female</label>
         <input type="radio" name="gender" id="female" value="female"><br>
         <label for="other" class=label>Other</label>
@@ -37,9 +85,10 @@
             <option value="2">Docter</option>
             <option value="3">Politics</option>
         </select>
-        <label for="avatar" class="label">Avatar:</label><br><br>
+        <label for="avatar" class="label">Avatar:</label>
+        <input type="file" id="avatar" name="avatar"><br><br>
         <label for="about_me" class="labels" >About you:</label>
-        <input type="text" id="about_me" name="about you"><br><br>
+        <textarea  id="about_me" name="about you"></textarea><br><br>
         <input type="checkbox" id="check" name="checkbox" class="labels">
         <label for="check">Subscribe to news letters.</label><br><br>
         <input type="submit" value="Submit" class="submit">

@@ -1,19 +1,4 @@
-#fname {
-    width:175px;
-   }
-   
-   #lname {
-    width:175px;
-   }
-   
-   #email-id {
-    width:175px;
-   }
-   
-   #pw {
-    width:175px;
-   }
-   
+
    #dates {
     width:175px;
    }
@@ -61,7 +46,7 @@
 
 header{
     padding: 10px 16px;
-    background: #555;
+    background: rgb(40, 183, 202);
     color: #f1f1f1;
     text-align:center;
       position: fixed;
