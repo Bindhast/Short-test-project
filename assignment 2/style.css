@@ -1,53 +1,51 @@
-   body {
-    margin-top:100px;
-   
-    }
-  
-    .about-you {
-      vertical-align: top;
-      margin-left: 410px;
-    }
-  
-  
-    .labels {
-      margin-left: 410px;
-    }
-    
-    .submit {
-      margin-left: 410px;
-    }
-  
-    .label_select {
-      margin-left: 410px;
-    }
-   
-  
-  #female{
-    margin-left:10px;
-  }
-  
-  #male{
-    margin-left:24px;
-  }
-  #other{
-    margin-left:21px;
-  }
+body {
+  margin-top: 100px;
+}
 
-  #rset {
-    margin-left: 20px;
-  }
-  
-  #hyper_link {
-    margin-left: 410px;
-  }
+.about-you {
+  vertical-align: top;
+  margin-left: 410px;
+}
 
-header{
-    padding: 10px 16px;
-    background: rgb(40, 183, 202);
-    color: #f1f1f1;
-    text-align:center;
-      position: fixed;
-    width: 100%;
-    top: 0;
-  
+.labels {
+  margin-left: 410px;
+}
+
+.submit {
+  margin-left: 410px;
+}
+
+.label_select {
+  margin-left: 410px;
+}
+
+#rset {
+  margin-left: 20px;
+}
+
+#hyper_link {
+  margin-left: 410px;
+}
+
+header {
+  padding: 10px 16px;
+  background: rgb(40, 183, 202);
+  color: #f1f1f1;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+td {
+  padding-bottom: 10px;
+}
+
+td.margin {
+  padding-left: 10px;
+}
+
+td.radio {
+  display: flex;
+  flex-direction: column;
 }

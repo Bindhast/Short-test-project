@@ -25,7 +25,7 @@
               placeholder="First Name"
             />
           </td>
-          <td>
+          <td class="margin">
             <label for="lname">Last name:</label>
           </td>
           <td>
@@ -49,7 +49,7 @@
               placeholder="Enter A Valid Email"
             />
           </td>
-          <td>
+          <td class="margin">
             <label for="pw">Password:</label>
           </td>
           <td>
@@ -58,21 +58,35 @@
         </tr>
         <tr>
           <td>
-            <label for="dates" class="labels">date:</label>
+            <label for="dates" class="labels">Date:</label>
           </td>
           <td>
             <input type="date" id="dates" name="dates" />
           </td>
-          <td>
+          <td class="margin">
             <label type="gender">Gender:</label>
           </td>
-          <td>
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="male" value="male" />
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female" value="female" />
-            <label for="other">Other</label>
-            <input type="radio" name="gender" id="other" value="other" checked/>
+          <td class="radio">
+            <label for="male">
+              <input type="radio" name="gender" id="male" value="male" />
+              <span>Male</span>
+            </label>
+
+            <label for="female">
+              <input type="radio" name="gender" id="female" value="female" />
+              <span>Female</span>
+            </label>
+
+            <label for="other">
+              <input
+                type="radio"
+                name="gender"
+                id="other"
+                value="other"
+                checked
+              />
+              <span>Other</span>
+            </label>
           </td>
         </tr>
         <tr>
@@ -87,7 +101,9 @@
               <option value="3">Politics</option>
             </select>
           </td>
-          <td><label for="avatar">Avatar:</label></td>
+          <td class="margin">
+            <label for="avatar">Avatar:</label>
+          </td>
           <td>
             <input type="file" id="avatar" name="avatar" />
           </td>
