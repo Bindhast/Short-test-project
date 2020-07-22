@@ -1,116 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <p>Sign in</p>
+      <p>Sign up</p>
     </header>
     <form action="/action_page.php">
-        
-       
-    
-        <table>
-            <tr>
-                <td>
-                    <label for="fname" class="labels" >First name:</label>
-                </td>    
-                <td>
-                    <input type="text" id="fname" name="fname">
-                </td>
-                <td>
-                    <label for="lname" >Last name:</label>
-                </td>
-                <td>
-                    <input type="text" id="lname" name="lname">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="email_id" class="labels">Email:</label>
-                </td>
-                <td>
-                    <input type="email" id="email_id" name="email id">
+      <table>
+        <tr>
+          <td>
+            <label for="fname" class="labels">First name:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="First Name"
+            />
+          </td>
+          <td>
+            <label for="lname">Last name:</label>
+          </td>
+          <td>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Last Name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="email_id" class="labels">Email:</label>
+          </td>
+          <td>
+            <input
+              type="email"
+              id="email_id"
+              name="email id"
+              placeholder="Enter A Valid Email"
+            />
+          </td>
+          <td>
+            <label for="pw">Password:</label>
+          </td>
+          <td>
+            <input type="password" id="pw" name="password" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="dates" class="labels">date:</label>
+          </td>
+          <td>
+            <input type="date" id="dates" name="dates" />
+          </td>
+          <td>
+            <label type="gender">Gender:</label>
+          </td>
+          <td>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="female">Female</label>
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              value="female"
+            /><br />
+            <label for="other">Other</label>
+            <input
+              type="radio"
+              name="gender"
+              id="other"
+              value="other"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="list" class="label_select">Profession:</label>
+          </td>
 
-                </td>
-                <td>
-                    <label for="pw">Password:</label>
+          <td>
+            <select id="list">
+              <option value="1">Student</option>
+              <option value="2" selected>Docter</option>
+              <option value="3">Politics</option>
+            </select>
+          </td>
+          <td><label for="avatar">Avatar:</label></td>
+          <td>
+            <input type="file" id="avatar" name="avatar" />
+          </td>
+        </tr>
+      </table>
 
-                </td>
-                <td>
-                    <input type="password" id="pw" name="password">                   
-                </td>
-            </tr>
-           <tr>
-            <td>
-                <label for="dates" class="labels">date:</label>
-            </td>
-            <td>
-                <input type="date" id="dates" name="dates">
-
-            </td>
-            <td>
-                <label type="gender">Gender:</label>
-            </td>
-            <td>
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="male" value="male">
-            </td>       
-               
-            </tr>
-            <tr>
-                <td>
-                    <label for="list" class="label_select">Profession:</label>
-                    
-                </td>
-                    
-                <td>
-                    <select id="list">
-                        <option value="1">Student</option>
-                        <option value="2" selected>Docter</option>
-                        <option value="3">Politics</option>
-                    </select>
-                </td>
-                <td></td>
-                <td colspan="4">
-                    <label for="female" >Female</label>
-                    <input type="radio" name="gender" id="female" value="female"><br>
-                    <label for="other" >Other</label>
-                    <input type="radio" name="gender" id="other" value="other"><br><br><br><br>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <label for="avatar">Avatar:</label>
-                    <input type="file" id="avatar" name="avatar">
-                </td>
-            </tr>
-       </table>
-        
-        
-        
-        
-       
-       
-       
-       
-        <label for="about_me" class="labels" >About you:</label>
-        <textarea  id="about_me" name="about you"></textarea><br><br>
-        <input type="checkbox" id="check" name="checkbox"  class="labels">
-        <label for="check">Subscribe to news letters.</label><br><br>
-        <input type="submit" value="Submit" class="submit">
-        <input type="reset" value="Clear" id="rset"> 
-        <input type="button" value="Cancel" id="rset" onclick="window.location.href='https://www.google.com'">
+      <label for="about_me" class="about-you">About you:</label>
+      <textarea id="about_me" name="about you" cols="60" rows="4"></textarea
+      ><br /><br />
+      <input
+        type="checkbox"
+        id="check"
+        name="checkbox"
+        class="labels"
+        checked
+      />
+      <label for="check">Subscribe to news letters.</label><br /><br />
+      <div>
+        <input type="submit" value="Submit" class="submit" />
+        <input type="reset" value="Clear" id="rset" />
+        <p><a href="https://www.google.com/" id="hyper_link">Cancel</a></p>
+      </div>
     </form>
-</body>
-
+  </body>
 </html>
